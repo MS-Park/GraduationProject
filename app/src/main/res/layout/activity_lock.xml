@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:patternview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.patternanalysis_v001.PatternView
+        android:id="@+id/patternView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        patternview:pathColor="@color/primary_dark_material_light"
+        patternview:circleColor="@color/highlighted_text_material_light"
+        patternview:dotColor="@android:color/black"
+        patternview:gridRows="3"
+        patternview:gridColumns="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
